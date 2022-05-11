@@ -30,6 +30,21 @@
         display: inline-block;
         list-style-type: none;
       }   
+      .suscribir {
+        background: url(https://p4.wallpaperbetter.com/wallpaper/190/337/145/gray-minimalistic-textures-wallpaper-preview.jpg);
+        background-size: cover;
+        background-position: center;
+        height: 250px;
+        display: flex;
+        justify-items: center;
+        align-items: center;
+    }
+    .formupa {
+      width: 150px;
+  }
+  .form-group{
+      margin: 3px;
+  }
 .footer{
     color: #ffffff;
     font-size: 20px;
@@ -68,6 +83,21 @@
          display: inline-block;
          list-style-type: none;
        }
+       .suscribir {
+        background: url(https://p4.wallpaperbetter.com/wallpaper/190/337/145/gray-minimalistic-textures-wallpaper-preview.jpg);
+        background-size: cover;
+        background-position: center;
+        height: 350px;
+        display: flex;
+        justify-items: center;
+        align-items: center;
+    }
+    .formupa {
+      width: 180px;
+  }
+  .form-group{
+      margin: 2px;
+  }
      .footer{
      color: #ffffff;
      font-size: 20px;}
@@ -86,23 +116,48 @@
   .font-rem{
     font-size: 6rem;
     font-family: 'Raleway', sans-serif;}
-  .nav {
-   position: fixed;
-   text-align: right;
-   top: 1px;
-   width: 100%; 
-   margin: 1px;
-   display: block;}
-   .nav ul{
-     margin: 10px;
-     padding: 10px;}
-     .nav ul li {
-       display: inline-block;
-       list-style-type: none;
-     }
+  
+.nav {
+  position: fixed;
+  text-align: right;
+  top: 1px;
+  width: 100%; 
+  margin: 1px;
+  display: block;
+ }
+
+  .nav ul{
+    margin: 10px;
+    padding: 10px;
+   }
+
+    .nav ul li {
+      display: inline-block;
+      list-style-type: none;
+      background-color: transparent;
+    }
+    .nav ul li:hover{
+      transform: scale(1.3);
+      transition-property: all;
+      transition-duration: 1.1s;
+      background-color: #ff9900;
+    }
+    .suscribir {
+      background: url(https://p4.wallpaperbetter.com/wallpaper/190/337/145/gray-minimalistic-textures-wallpaper-preview.jpg);
+      background-size: cover;
+      background-position: center;
+      height: 400px;
+      display: flex;
+      justify-items: center;
+      align-items: center;
+  }
+    .formupa {
+      width: 250px;
+  }
+  .form-group{
+      margin: 3px;
+  }
    .footer{
    color: #ffffff;
    font-size: 20px;}
-
-
   }
