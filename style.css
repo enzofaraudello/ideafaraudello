@@ -222,6 +222,7 @@
     }
     
     .carousel-principal{
+      position: sticky;
       margin: auto;
       align-items: center;
       height: 500px;
